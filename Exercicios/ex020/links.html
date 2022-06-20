@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br  ">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+<style>
+
+        /* SELETORES PERSONALIZADOS
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children 
+            
+        */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+a:active {
+    color:yellow
+}
+
+a::before {
+content: ' ➡️ '; 
+text-decoration: none;
+color: darkgray;
+}
+
+.links {
+    background-color: aqua;
+}
+
+
+</style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+    <ul>
+        
+        <li><a href="https://github.com/estudonauta/html-css-old/tree/main/PDF-old" target="_blank"> Repositorio do Github</a></li>
+        
+         <li><a class="links" href="https://www.youtube.com/" target="_blank">Canal do Youtube</a></li>
+
+        <li><a class="links" href="https://www.cursoemvideo.com/" target="_blank">Site do Cursoemvideo</a></li>
+
+
+    </ul>
+    
+</body>
+</html>
